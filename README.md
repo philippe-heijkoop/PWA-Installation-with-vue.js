@@ -2,26 +2,29 @@
 Simple Progressive Web app installation with vue.js
 
 Simple tutorial to create a pwa with vue.js
-#### Create the vue projet
+#### Create a new vue.js projet
 ```bash
 vue create pwa-talk
 ```
-#### Open visual studio
+#### Select the features
+
+#### open visual studio
 ```bash
 cd pwa talk
 code .
 ```
-#### Open terminal and Build the project
+#### open terminal and Build the project
 ```bash
 npm run build
 ```
 after building the project, it create a folder name as `dist`
-#### Install http-server
-```bash
-npm install http-server
-```
-#### locate the `dist` folder and run the server
+#### locate the `dist` folder and Install http-server
 ```bash
 cd dist
+npm install http-server
+```
+#### run the server
+```bash
 http-server
 ```
+#### Go to
